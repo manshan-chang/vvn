@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <title>周杰倫粉絲團</title>
+    <meta charset="utf-8">
+    <link href="css/site.css" rel="stylesheet" type="text/css">
+    <link href="css/menu.css" rel="stylesheet" type="text/css">
+    <link href="css/fig.css" rel="stylesheet" type="text/css">
+    <link href="css/btn1.css" rel="stylesheet" type="text/css">
+
+    <style>
+        main {
+            background-color: white;
+            clear: both;
+        }
+
+        #jp {
+            height: 70px;
+            width: 500px;
+            margin-left: 450px;
+
+        }
+
+        #t1 {
+            height: 100px;
+            width: :850px;
+            clear: both;
+            background-color: black;
+        }
+
+        #all {
+            background-position: top clear: both;
+        }
+
+        .slider_container {
+            margin: 30px auto;
+            width: 650px;
+            height: 280px;
+            position: relative;
+            border: 20px solid;
+            border-color: black;
+            border-bottom-width: 100px;
+            background-color: #f5f5f5;
+            box-shadow: #666 0 0 5px;
+        }
+
+        .slider_container div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+
+        .slider_container div {
+            -webkit-animation: round 25s linear infinite;
+            animation: round 25s linear infinite;
+        }
+
+        @-webkit-keyframes round {
+            4% {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                /* 0 - 1秒 淡入*/
+            }
+
+            20% {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                /* 1- 5秒靜止*/
+            }
+
+            24% {
+                opacity: 0;
+                filter: alpha(opacity=0);
+                /* 5-6秒淡出*/
+            }
+        }
+
+        @keyframes round {
+            4% {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                /* 0 - 1秒 淡入*/
+            }
+
+            20% {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                /* 1- 5秒靜止*/
+            }
+
+            24% {
+                opacity: 0;
+                filter: alpha(opacity=0);
+                /* 5-6秒淡出*/
+            }
+        }
+
+        .slider_container div:nth-child(5) {
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+
+        .slider_container div:nth-child(4) {
+            -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+        }
+
+        .slider_container div:nth-child(3) {
+            -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+        }
+
+        .slider_container div:nth-child(2) {
+            -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+        }
+
+        .slider_container div:nth-child(1) {
+            -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+        }
+
+        .slider_container span {
+            color: #000;
+            background: #fff;
+            position: absolute;
+            left: 0%;
+            top: 280px;
+            width: 650px;
+            height: 100px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 100px;
+            -webkit-transform: scaleY(0);
+            -ms-transform: scaleY(0);
+            transform: scaleY(0);
+            -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .slider_container:hover span {
+            width: 100%;
+            -webkit-transform: scaleY(1);
+            -ms-transform: scaleY(1);
+            transform: scaleY(1);
+        }
+
+        .slider_container:hover div {
+            -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+        }
+
+        #a1 {
+            width: 650px;
+            height: 280px;
+        }
+
+        #a2 {
+            width: 40px;
+            height: 40px;
+        }
+
+        #a3 {
+            width: 45px;
+            height: 45px;
+        }
+         #footer2{
+            text-align: right;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="all">
+        <div id="t1"></div>
+        <header id="header">
+            <div class="logo"><img id="jp" src="img/j.2.jpg"></div>
+        </header>
+        <div id="menu-wrapper">
+            <ul class="menu">
+                <li><a href="about.html">關於JAY</a>
+                    <ul>
+                        <li><a href="tn-1.html">個人資料</a></li>
+                        <li><a href="#">介紹</a></li>
+                        <li><a href="news.html">新聞</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">作品</a>
+                    <ul>
+                        <li><a href="ph.html">單曲</a></li>
+                        <li><a href="#">專輯☞</a>
+                            <ul>
+                                <li><a href="#">周杰倫同名專輯</a></li>
+                                <li><a href="#">范特西</a></li>
+                                <li><a href="#">八度空間</a></li>
+                                <li><a href="#">葉惠美</a></li>
+                                <li><a href="#">七里香</a></li>
+                                <li><a href="#">11月的蕭邦</a></li>
+                                <li><a href="#">依然范特西</a></li>
+                                <li><a href="#">我很忙</a></li>
+                                <li><a href="#">魔杰座</a></li>
+                                <li><a href="#">跨時代</a></li>
+                                <li><a href="#">驚嘆號</a></li>
+                                <li><a href="#">十二新作</a></li>
+                                <li><a href="#">哎呦，不錯哦</a></li>
+                                <li><a href="#">周杰倫的床邊故事</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">電影</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">影音</a>
+                </li>
+            </ul>
+            <embed width="200" height="150" src="%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E6%84%9B%E5%9C%A8%E8%A5%BF%E5%85%83%E5%89%8D%20Love%20before%20BC%E3%80%91Official%20MV.mp3" autostart="true">
+
+        </div>
+
+        <main>
+            <div class="slider_container">
+                <div>
+                    <img id="a1" src="img/belive.jpg" alt="pure css3 slider" />
+                    <span class="info">♫最新單曲我如此相信♫</span>
+                </div>
+                <div>
+                    <img id="a1" src="img/cry.jpeg" alt="pure css3 slider" />
+                    <span class="info">♫說好不哭f.t♫</span>
+                </div>
+                <div>
+                    <img id="a1" src="img/dont.jpg" alt="pure css3 slider" />
+                    <span class="info">♫不愛我就拉倒♫</span>
+                </div>
+                <div>
+                    <img id="a1" src="img/love.jpg" alt="pure css3 slider" />
+                    <span class="info">♫告白氣球♫</span>
+                </div>
+                <div>
+                    <img id="a1" src="img/man.jpg" alt="pure css3 slider" />
+                    <span class="info">♫算什麼男人♫</span>
+                </div>
+            </div>
+            <aside class="frame left">
+                <span><a href="https://www.facebook.com/JVRMusicOfficial/" class="fb" target="_blank"><img id="a2" src="img/fb.jpg"></a></span>
+                <span><a href="https://www.youtube.com/user/JVRmuzic" class="yt" target="_blank"><img id="a2" src="img/yt.png"></a></span>
+                <span><a href="https://www.instagram.com/jaychou/?hl=zh-tw" class="wb" target="_blank"><img id="a3" src="img/ig.png"></a></span>
+
+            </aside>
+
+        </main>
+        <footer id="footer">連絡電話:1234567891011</footer>
+        <footer id="footer2"><a href="index.html">回首頁</a></footer>
+    </div>
+</body></html>

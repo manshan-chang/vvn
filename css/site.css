@@ -1,0 +1,38 @@
+    * {
+        margin:0;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    #header{
+        height: 100px;
+        background-color:black;
+    }
+    #logo1{
+        background-image: url(../img/j.2.jpg);
+        background-repeat:no-repeat;
+    }
+    #menu-wrapper{
+        padding-left:450px;
+        background-color: black;
+        
+    }
+   
+    }
+    main{
+        float:left;
+        width:100%;
+        background-color: #a7c479;
+    }
+    main .title{
+        font: 32px bold;
+        margin: 10px 20px;
+        color: #283a03; 
+    }
+    #footer{
+        height: 30px;
+        background-color:black;
+        text-align: center;
+        color: floralwhite;
+    }
